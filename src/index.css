@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Karla:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #E5E5E5;
+}
+
+.head {
+  width: 550px;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.headimg {
+  width: 31.31px;
+  height: 26.22px;
+  margin: 20px 0 0 19px;
+}
+
+.imgmeme {
+  display: flex;
+  flex-direction: row;
+}
+
+.memeg {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.7482px;
+  color: #FFFFFF;
+  margin: 21px 0 0 8px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+}
+
+.rc {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #FFFFFF;
+  margin: 25px 0 0 180px;
+}
+
+.memecov {
+  background-color: #FFFFFF;
+  width: 550px;
+  height: 485px;
+}
+
+/* .form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+} */
+
+.shut, .money {
+  width: 230px;
+  height: 35px;
+  margin-top: 50px;
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  text-indent: 5px;
+}
+
+.shut {
+  margin-left: 36px;
+}
+
+.money {
+  margin-left: 18px;
+}
+
+.btn {
+  width: 477px;
+  height: 40px;
+  margin: 30px 0 0 36px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.memeimg {
+  width: 477px;
+  height: 268px;
+  margin: 30px 0 0 36px;
+  border-radius: 2px;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0px 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 25px;
+}
